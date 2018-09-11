@@ -3,10 +3,10 @@ from django.db import models
 class Event(models.Model):
 
     priority_list = (
-        ('0','sem prioridade')
-        ('1','Normal')
-        ('2','Urgente')
-        ('3','Muito Urgente')
+        ('0','sem prioridade'),
+        ('1','Normal'),
+        ('2','Urgente'),
+        ('3','Muito Urgente'),
         ('4','Ultra Mega Hiper Urgente')
     )
     date = models.DateField()
